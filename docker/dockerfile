@@ -1,0 +1,3 @@
+FROM bash:latest  
+COPY fib.sh /     
+ENTRYPOINT ["bash", "fib.sh"]
